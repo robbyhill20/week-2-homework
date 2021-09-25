@@ -31,9 +31,9 @@ a{
 }
 
 .bottom-section{
-    background: rgb(53,125,148);
-    background: linear-gradient(353deg, rgba(53,125,148,1) 2%, rgba(89,0,106,1) 31%, rgba(195,138,36,1) 82%);
-    padding-top: 150px
+    background-image: url(./Images/background8.jpg);
+    background-size: cover;
+    margin-top: 15px
     
 }
 nav{
@@ -42,8 +42,7 @@ nav{
     align-items: center;
     flex-direction: row;
     height:45px;
-    background: rgb(53,125,148);
-    background: linear-gradient(353deg, rgba(53,125,148,1) 2%, rgba(89,0,106,1) 31%, rgba(195,138,36,1) 82%);
+    background-color:black;
     box-shadow:1.5px 1.5px 10px rgba(0,0,0,0,2);
     padding: 0px 5%
 }
@@ -120,15 +119,11 @@ h1{
     transform:scale(1.1)
 }
 
-.bottom-background{
-    background-image: url(./Images/background3.jpg);
-    background-size:contain;
-    background-repeat: no-repeat;
-}
+
 .about-box{
     height: 300px;
     width: 75%;
-    background-image: url(./Images/northern-lights.jpg);
+    background-image: url(./Images/background6.jpg);
     background-size: cover;
     background-repeat:repeat-x;
     border-radius: 18px;
@@ -194,7 +189,7 @@ h1{
 }
 .work-section{
     padding: 0% 0% 0px 0%;
-    height: 900px;
+    height: 800px;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -240,13 +235,18 @@ h1{
     box-shadow: 15px  white;
     font-style:italic;
     color: black;
-    background-color: white;
+    background: rgb(193,66,2);
+    background: radial-gradient(circle, rgba(193,66,2,1) 0%, rgba(0,0,0,1) 87%);
     text-align: center;
+    box-shadow: 10px 10px 10px black
 
 }
 footer{
     display: flex;
     justify-content: space-evenly;
+    background-color: black;
+    color:white;
+    font-style: italic;
 }
 h2:hover{
     transform: skewX(15deg);
